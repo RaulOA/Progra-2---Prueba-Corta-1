@@ -1,0 +1,37 @@
+scrcpy -S -f
+
+scrcpy --tcpip -S -f
+
+scrcpy --tcpip=192.168.1.5:5555
+
+scrcpy --serial 0123456789abcdef
+scrcpy -s 0123456789abcdef  # versión breve
+
+scrcpy --serial 192.168.0.1:5555
+scrcpy -s 192.168.0.1:5555  # versión breve
+
+scrcpy --max-size 1024
+scrcpy -m 1024  # versión breve
+
+scrcpy --bit-rate 2M
+scrcpy -b 2M  # versión breve
+
+scrcpy --max-fps 15
+
+scrcpy --window-borderless
+
+scrcpy --fullscreen
+scrcpy -f  # versión breve
+
+scrcpy --stay-awake
+scrcpy -w  # versión breve
+
+scrcpy --turn-screen-off
+scrcpy -S  # versión breve
+
+scrcpy --power-off-on-close
+
+scrcpy --show-touches
+scrcpy -t  # versión breve
+
+192.168.1.5:5555
