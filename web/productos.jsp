@@ -22,7 +22,7 @@
             public void jspInit() {
                 try {
                     Class.forName("com.mysql.cj.jdbc.Driver");
-                    con = DriverManager.getConnection("jdbc:mysql://localhost/WebProducts", "root", "ne5ddd90");
+                    con = DriverManager.getConnection("jdbc:mysql://localhost/WebProducts", "root", "Admin$123");
                     Statement statement = con.createStatement();
                     resultset = statement.executeQuery("select * from Products");
                 } catch (Exception ex) {
